@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScrollEventListener'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of ScrollEventListener.'
 
 # This description is used to generate tags and improve search results.
@@ -29,5 +29,6 @@ TODO: get scroll event on whole app
   s.social_media_url = 'https://twitter.com/pencilCool0'
 
   s.ios.deployment_target = '12.0'
+  s.swift_versions = ['5.0']
   s.source_files = 'ScrollEventListener/*'
 end

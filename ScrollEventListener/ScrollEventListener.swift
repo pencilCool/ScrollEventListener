@@ -35,7 +35,7 @@ public class ScrollEventListener {
         guard allowListen else {
             return
         }
-        RunLoop.main.perform(inModes: [.UITrackingRunLoopMode]) {
+        RunLoop.main.perform(inModes: [.tracking]) {
             self.scrollClosure?()
             self.listenNoScroll()
         }
@@ -46,7 +46,7 @@ public class ScrollEventListener {
         guard allowListen else {
             return
         }
-        RunLoop.main.perform(inModes: [.defaultRunLoopMode]) {
+        RunLoop.main.perform(inModes: [.default]) {
             self.stopClosure?()
             self.listenScroll()
         }
