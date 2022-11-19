@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollEventListener'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of ScrollEventListener.'
+  s.summary          = 'Listen  iOS App scroll event '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: get scroll event on whole app
+TODO: Listen  scroll event on whole app base on runloop mode
                        DESC
 
   s.homepage         = 'https://github.com/pencilCool/ScrollEventListener'
