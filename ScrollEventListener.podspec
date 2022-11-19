@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: get scroll event on whole app
                        DESC
 
   s.homepage         = 'https://github.com/pencilCool/ScrollEventListener'
@@ -26,17 +26,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pencilCool' => 'yhtangcoder@gmail.com' }
   s.source           = { :git => 'https://github.com/pencilCool/ScrollEventListener.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/pencilCool0'
 
   s.ios.deployment_target = '12.0'
-
   s.source_files = 'ScrollEventListener/*'
-  
-  # s.resource_bundles = {
-  #   'ScrollEventListener' => ['ScrollEventListener/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
