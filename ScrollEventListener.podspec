@@ -30,5 +30,5 @@ TODO: Listen  scroll event on whole app base on runloop mode
 
   s.ios.deployment_target = '12.0'
   s.swift_versions = ['5.0']
-  s.source_files = 'ScrollEventListener/*'
+  s.source_files = 'Source/*'
 end
