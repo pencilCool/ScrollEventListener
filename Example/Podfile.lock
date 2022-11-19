@@ -1,0 +1,16 @@
+PODS:
+  - ScrollEventListener (0.1.0)
+
+DEPENDENCIES:
+  - ScrollEventListener (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollEventListener:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScrollEventListener: 7ab75e56722d62934daecc72e8e05ee74efef36c
+
+PODFILE CHECKSUM: a2f4e2482eb9732fcdc16b33e8757c28baf0636a
+
+COCOAPODS: 1.11.2
